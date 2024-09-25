@@ -23,6 +23,11 @@ body p {
     font-size: 1.4rem;
 }
 
+body h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 .image-hero-container {
     position: relative;
     width: 100%;
@@ -49,4 +54,72 @@ body p {
 
 body {
     overflow-x: hidden;
+}
+
+.custom-nav-underline {
+    border-bottom: 1px solid lightgrey;
+}
+
+.custom-nav-link {
+    color: rgb(149, 147, 147);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.custom-nav-link.active {
+    color: rgb(99, 99, 99) !important;
+    border-bottom: 5px solid $secondary !important;
+}
+
+.custom-nav-link:hover {
+    color: rgb(99, 99, 99);
+    border-bottom: 5px solid $secondary !important;
+}
+
+@media (max-width: 768px) {
+    .custom-nav-underline {
+        --bs-nav-underline-gap: 0;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .custom-nav-link {
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .custom-nav-link.active {
+        color: rgb(99, 99, 99) !important;
+        border-bottom: 5px solid $secondary !important;
+    }
+
+    .custom-nav-link:hover {
+        color: rgb(99, 99, 99);
+        border-bottom: 5px solid $secondary !important;
+    }
+}
+
+.image-tab-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image-tab {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.tab-mancha {
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    width: 1000vh;
+    height: 85%;
+    border-radius: 80vh;
+    background-color: $primary;
+    z-index: -1;
 }
