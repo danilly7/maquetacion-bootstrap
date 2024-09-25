@@ -49,14 +49,17 @@
     <div class="container pt-5 pb-5">
       <div class="row align-items-center">
 
-        <div class="hero-content col-lg-6 col-12 text-center text-md-start align-items-center pt-5 order-2 order-md-1">
-          <h1 class="fw-bold">A Simple Bookmark Manager</h1>
+        <div class="hero-content col-12 col-lg-6 text-center text-lg-start align-items-center pt-5 order-md-1">
+          <div class="row">
+            <h1 class="fw-bold">A Simple Bookmark Manager</h1>
 
-          <p class="pt-4">A clean and simple interface to organize your favourite websites. Open a new browser
-            tab and see your sites
-            load instantly. Try it for free.</p>
+            <p class="pt-4">A clean and simple interface to organize your favourite websites. Open a new browser
+              tab and see your sites
+              load instantly. Try it for free.
+            </p>
+          </div>
 
-          <div class="row justify-content-center justify-content-md-start pt-4">
+          <div class="row align-items-center justify-content-center justify-content-lg-start pt-4 pb-4">
             <div class="col-auto">
               <button class="btn btn-primary px-5 py-3 shadow">Get it on Chrome</button>
             </div>
@@ -68,10 +71,10 @@
 
         </div>
 
-        <div class="col-md-6 col-12 pt-4 pb-4 pb-lg-0 align-items-start order-1 order-md-2">
+        <div class="col-12 col-lg-6 pt-4 pb-4 pb-lg-0 align-items-start order-md-2">
           <div class="image-hero-container">
 
-            <div class="image-hero">
+            <div class="image-hero d-flex flex-row justify-content-center pt-md-5">
               <img src="./recursos/imagenes/illustration-hero.svg" alt="Imagen de cómo sería Bookmark"
                 class="img-fluid">
             </div>
@@ -94,7 +97,7 @@
       </div>
 
       <div class="d-flex flex-row pt-4 justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-12  col-lg-6 text-center">
           <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between
             your devices so you can access them on the go.</p>
         </div>
@@ -102,25 +105,38 @@
 
       <div class="d-flex flex-row justify-content-center pt-5">
         <ul class="nav nav-underline custom-nav-underline">
-          <li class="nav-item">
-            <a class="nav-link active custom-nav-link px-5 py-4" href="#tab-one-container" onclick="showTab('tab-one-container')">Simple Bookmarking</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link custom-nav-link px-5 py-4" href="#tab-two-container" onclick="showTab('tab-two-container')">Speedy
-              Searching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link custom-nav-link px-5 py-4" href="#tab-three-container" onclick="showTab('tab-three-container')">Easy
-              Sharing</a>
-          </li>
+
+          <div class="col-12 col-lg-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active custom-nav-link px-5 py-4" href="#tab-one-container"
+                onclick="showTab('tab-one-container')">Simple Bookmarking</a>
+            </li>
+          </div>
+
+          <div class="col-12 col-lg-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link custom-nav-link px-5 py-4" href="#tab-two-container"
+                onclick="showTab('tab-two-container')">Speedy
+                Searching</a>
+            </li>
+          </div>
+
+          <div class="col-12 col-lg-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link custom-nav-link px-5 py-4" href="#tab-three-container"
+                onclick="showTab('tab-three-container')">Easy
+                Sharing</a>
+            </li>
+          </div>
+
         </ul>
       </div>
 
       <div class="row pt-5 tab-content" id="tab-one-container">
-        <div class="d-flex flex-col col-lg-6 col-12 align-items-center pt-5 pb-5 order-1">
+        <div class="d-flex flex-column col-12 col-lg-6 align-items-center pt-5 pb-5 order-1">
 
           <div class="image-tab-container">
-            <div class="image-tab d-flex flex-row justify-content-center">
+            <div class="image-tab">
               <img src="./recursos/imagenes/illustration-features-tab-1.svg" alt="Bookmark in one click"
                 class="image-fluid">
             </div>
@@ -131,16 +147,16 @@
 
         </div>
 
-        <div class="col-lg-6 col-12 text-center text-md-start align-items-center pt-5 order-2">
+        <div class="col-12 col-lg-6 text-center text-lg-start align-items-center pt-5 order-2">
 
-          <div class="tab-one-content pt-5">
+          <div class="tab-one-content pt-5 offset-lg-1">
             <h1 class="fw-bold">Bookmark in one click</h1>
 
             <p class="pt-4">Organize your bookmark however you like. Our simple drag-and-drop interface gives you
               complete control
               over how you manage your favourite sites.</p>
 
-            <div class="col-auto pt-4">
+            <div class="pt-4">
               <button class="btn btn-primary px-5 py-3 shadow d-none d-lg-block">More Info</button>
             </div>
 
@@ -151,10 +167,10 @@
       </div>
 
       <div class="row pt-5 d-none tab-content" id="tab-two-container">
-        <div class="col-lg-6 col-12 align-items-center pt-5 pb-5 order-1">
+        <div class="d-flex flex-col col-12 col-lg-6 align-items-center pt-5 pb-5 order-1">
 
           <div class="image-tab-container">
-            <div class="image-tab d-flex flex-row justify-content-center">
+            <div class="image-tab">
               <img src="./recursos/imagenes/illustration-features-tab-2.svg" alt="Intelligent search"
                 class="image-fluid">
             </div>
@@ -165,15 +181,15 @@
 
         </div>
 
-        <div class="col-lg-6 col-12 text-center text-md-start align-items-center pt-5 order-2">
+        <div class="col-12 col-lg-6 text-center text-lg-start align-items-center pt-5 order-2">
 
-          <div class="tab-two-content pt-5">
+          <div class="tab-two-content pt-5 offset-lg-1">
             <h1 class="fw-bold">Intelligent search</h1>
 
             <p class="pt-4">Our powerful search feature will help you find saved sites in no time at all. No need to
               trawl through all of your bookmarks.</p>
 
-            <div class="col-auto pt-4">
+            <div class="pt-4">
               <button class="btn btn-primary px-5 py-3 shadow d-none d-lg-block">More Info</button>
             </div>
 
@@ -184,10 +200,10 @@
       </div>
 
       <div class="row pt-5 d-none tab-content" id="tab-three-container">
-        <div class="d-flex flex-col col-lg-6 col-12 align-items-center pt-5 pb-5 order-1">
+        <div class="d-flex flex-col col-12 col-lg-6 align-items-center pt-5 pb-5 order-1">
 
           <div class="image-tab-container">
-            <div class="image-tab d-flex flex-row justify-content-center">
+            <div class="image-tab">
               <img src="./recursos/imagenes/illustration-features-tab-3.svg" alt="Share your bookmarks"
                 class="image-fluid">
             </div>
@@ -198,15 +214,15 @@
 
         </div>
 
-        <div class="col-lg-6 col-12 text-center text-md-start align-items-center pt-5 order-2">
+        <div class="col-12 col-lg-6 text-center text-lg-start align-items-center pt-5 order-2">
 
-          <div class="tab-three-content pt-5">
+          <div class="tab-three-content pt-5 offset-lg-1">
             <h1 class="fw-bold">Share your bookmarks</h1>
 
             <p class="pt-4">Easily share your bookmarks and collections with others. Create a shareable link that you
               can send at the click of a button.</p>
 
-            <div class="col-auto pt-4">
+            <div class="pt-4">
               <button class="btn btn-primary px-5 py-3 shadow d-none d-lg-block">More Info</button>
             </div>
 
@@ -220,26 +236,30 @@
 
   </section>
 
+  <section></section>
+
+
+
 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <script>
     function showTab(tabId) {
-  
-    document.querySelectorAll('.tab-content').forEach(function (content) {
-      content.classList.add('d-none');
-    });
 
-    document.querySelectorAll('.nav-link').forEach(function (link) {
-      link.classList.remove('active');
-    });
+      document.querySelectorAll('.tab-content').forEach(function (content) {
+        content.classList.add('d-none');
+      });
 
-    document.getElementById(tabId).classList.remove('d-none');
+      document.querySelectorAll('.nav-link').forEach(function (link) {
+        link.classList.remove('active');
+      });
 
-    document.querySelector(`[href="#${tabId}"]`).classList.add('active');
-  }
+      document.getElementById(tabId).classList.remove('d-none');
+
+      document.querySelector(`[href="#${tabId}"]`).classList.add('active');
+    }
   </script>
-  
+
 </body>
 
 </html>
