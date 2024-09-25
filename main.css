@@ -11996,7 +11996,7 @@ body h2, body .h2 {
   height: auto;
 }
 
-.image-hero {
+.image-hero img {
   position: relative;
   width: 100%;
   height: auto;
@@ -12007,13 +12007,14 @@ body h2, body .h2 {
   position: absolute;
   top: 25%;
   left: 20%;
-  width: 1000vh;
+  width: 120vh;
   height: 80%;
   border-radius: 80vh;
   background-color: #5265E1;
   z-index: -1;
 }
 
+html,
 body {
   overflow-x: hidden;
 }
@@ -12075,9 +12076,52 @@ body {
   position: absolute;
   top: 35%;
   right: 25%;
-  width: 1000vh;
+  width: 120vh;
   height: 85%;
   border-radius: 80vh;
   background-color: #5265E1;
   z-index: -1;
+}
+
+.custom-card {
+  width: 17.5rem;
+  height: 27rem;
+  border-radius: 3%;
+  padding: 0;
+  margin: 0;
+}
+
+.card-img img {
+  position: relative;
+  width: 40%;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.custom-card h5, .custom-card .h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.custom-card p {
+  color: rgb(149, 147, 147);
+  font-size: 1.2rem;
+}
+
+.card-body {
+  margin: 20px;
+  padding: 0;
+}
+
+.card-dots {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.card-button {
+  margin-top: 1rem;
 }/*# sourceMappingURL=main.css.map */
