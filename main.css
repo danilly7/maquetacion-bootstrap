@@ -12124,4 +12124,14 @@ body {
 
 .card-button {
   margin-top: 1rem;
+}
+
+.accordion p {
+  color: rgb(149, 147, 147);
+  font-size: 1.2rem;
+}
+
+.accordion button {
+  font-size: 1.2rem;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
