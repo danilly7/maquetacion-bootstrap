@@ -1,7 +1,0 @@
-EXERCICI 1:
-
-- navBar de Bootstrap.
-- Grid Responsive de Bootstrap --> tauleta i mòbil.
-- Modificar amb SASS, mitjançant l'arxiu creat per tu "main.scss", el color principal i secundari de Bootstrap.
-Color principal: #5265E1
-Color secundari: #FA5959. 

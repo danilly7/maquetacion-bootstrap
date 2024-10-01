@@ -11965,16 +11965,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-secondary {
-  color: white;
-  font-weight: bold;
-}
-
-.btn-primary {
-  color: white;
-  font-weight: bold;
-}
-
 .hero-content > h1, .hero-content > .h1 {
   font-size: 50px;
   font-weight: normal;
@@ -12003,7 +11993,7 @@ body h2, body .h2 {
   z-index: 0;
 }
 
-.hero-mancha {
+.hero-stain {
   position: absolute;
   top: 25%;
   left: 20%;
@@ -12072,7 +12062,7 @@ body {
   z-index: 0;
 }
 
-.tab-mancha {
+.tab-stain {
   position: absolute;
   top: 35%;
   right: 25%;
