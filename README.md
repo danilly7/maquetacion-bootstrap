@@ -1,4 +1,4 @@
-# SPRING 1. MAQUETACIÓN - S1.2. Bootstrap & SASS
+# SPRINT 1. MAQUETACIÓN - S1.2. Bootstrap & SASS
 ## Descripción del proyecto: 
 
 Este proyecto es una landing page para **Bookmark**, un administrador de marcadores sencillo y eficiente. El objetivo de esta página es ofrecer información clara sobre las características del producto, la posibilidad de descargar extensiones para diferentes navegadores y de responder preguntas frecuentes.
