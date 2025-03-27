@@ -1,4 +1,4 @@
-# SPRINT 1. MAQUETACIÓN - S1.2. Bootstrap & SASS
+# MAQUETACIÓN - Bootstrap & SASS
 ## Descripción del proyecto: 
 
 Este proyecto es una landing page para **Bookmark**, un administrador de marcadores sencillo y eficiente. El objetivo de esta página es ofrecer información clara sobre las características del producto, la posibilidad de descargar extensiones para diferentes navegadores y de responder preguntas frecuentes.
@@ -47,13 +47,13 @@ Para instalar este proyecto localmente:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/danilly7/S1.2.-Bootstrap-SASS.git
+   git clone https://github.com/danilly7/maquetacion-bootstrap.git
    ``` 
    
 2. Navega a la carpeta del proyecto:
 
    ```bash
-   cd S1.2.-Bootstrap-SASS
+   cd maquetacion-bootstrap
    ```
 
 3. Instala las dependencias de Bootstrap (opcional, si usas Bootstrap a través de npm):
